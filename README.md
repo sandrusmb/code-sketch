@@ -18,6 +18,7 @@ Repasar conceptos básicos pero imprescindibles como:
 - Rutas relativas vs. rutas absolutas
 - Selectores CSS.
 - Transiciones.
+- Atributos data-\*
 - La [sintáxis Markdown](https://markdown.es/sintaxis-markdown/) para redactar este Readme.
 
 Usar nuevas herramientas como:
