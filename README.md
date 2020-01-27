@@ -16,6 +16,7 @@ Repasar conceptos básicos pero imprescindibles como:
 - Los parámetros por defecto de display: flex
 - Posición absolute y relative
 - Rutas relativas vs. rutas absolutas
+- Selectores CSS
 - La [sintáxis Markdown](https://markdown.es/sintaxis-markdown/) para redactar este Readme
 
 Usar nuevas herramientas como:
