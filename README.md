@@ -13,13 +13,16 @@ En esta ocasión, he seguido un **[tutorial](https://www.youtube.com/watch?v=eMh
 Repasar conceptos básicos pero imprescindibles como:
 
 - border-box vs. content-box
-- Los parámetros por defecto de display: flex
-- Posición absolute y relative
+- Los parámetros por defecto de display: flex.
+- Posición absolute y relative.
 - Rutas relativas vs. rutas absolutas
-- Selectores CSS
-- La [sintáxis Markdown](https://markdown.es/sintaxis-markdown/) para redactar este Readme
+- Selectores CSS.
+- Transiciones.
+- La [sintáxis Markdown](https://markdown.es/sintaxis-markdown/) para redactar este Readme.
 
 Usar nuevas herramientas como:
 
-- El generador de fondos degradados en css: https://cssgradient.io/
+- El [generador de fondos degradados](https://cssgradient.io/) en CSS.
 - [La pseudo-clase :active de CSS](https://developer.mozilla.org/es/docs/Web/CSS/:active) , usada para acentuar el efecto de click sobre las tarjetas.
+- Las propiedades de CSS [perspective](https://www.w3schools.com/cssref/css3_pr_perspective.asp) y [transform-style](https://www.w3schools.com/cssref/css3_pr_transform-style.asp): preserve-3d para dar la vuelta a las cartas con sensación de profundidad.
+- La propiedad [backface-visibility](https://www.w3schools.com/cssref/css3_pr_backface-visibility.asp) que define si la cara posterior de un elemento debe ser visible o no.
