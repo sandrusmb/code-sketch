@@ -46,4 +46,4 @@ Usar nuevas herramientas como:
 - Niveles de dificultad (con menos tiempo para jugar y que las cartas se den la vuelta más deprisa, por ejemplo).
 - Mensaje cuando pierdes.
 
-![Demo](https://github.com/sandrusmb/code-sketch/blob/master/images/memory%20game%20copia.gif?raw=true)
+![Demo](https://github.com/sandrusmb/code-sketch/blob/master/images/memory%20game%20demo.gif?raw=true)
