@@ -1,7 +1,6 @@
-/* "use strict"; */
-const cards = document.querySelectorAll(".memory-card");
+"use strict";
 
-//Saber qué tarjeta ha sido clickada. Crear la lógica del juego.
+const cards = document.querySelectorAll(".memory-card");
 
 let hasFlippedCard = false;
 let lockBoard = false;
@@ -11,6 +10,7 @@ let firstCard, secondCard;
 
 function cardClickHandler() {
   if (lockBoard) return;
+  if (this === firstCard) return;
 
   this.classList.add("flip");
 
@@ -27,6 +27,8 @@ function cardClickHandler() {
   checkIfCardsMatched();
 }
 
+//Saber qué tarjeta ha sido clickada. Crear la lógica del juego.
+
 function checkIfCardsMatched() {
   let isMatch = firstCard.dataset.name === secondCard.dataset.name;
   isMatch ? disableCards() : unflipCards();
@@ -42,9 +44,17 @@ function unflipCards() {
   setTimeout(() => {
     firstCard.classList.remove("flip");
     secondCard.classList.remove("flip");
+    resetBoard();
   }, 1500);
 }
 
 cards.forEach(card => {
   card.addEventListener("click", cardClickHandler);
 });
+
+function resetBoard() {
+  hasFlippedCard = false;
+  lockBoard = false;
+  firstCard = null;
+  secondCard = null;
+}

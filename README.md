@@ -34,5 +34,5 @@ Usar nuevas herramientas como:
 ## Retos
 
 - Comprobar si las cartas coinciden o no (función checkIfCardsMatched).
-- Conseguir que las cartas cuando no coinciden, que se den la vuelta automáticamente y cuando coinciden, que se queden boca arriba y no se puedan volver a clickar (añadiendo y quitando eventListeners y clases).
+- Conseguir que las cartas cuando no coinciden, se den la vuelta automáticamente y cuando coinciden, que se queden boca arriba y no se puedan volver a clickar (añadiendo y quitando eventListeners y clases).
 - Evitar poder dar la vuelta a más cartas mientras que está realizando una comprobación (función lockBoard).
