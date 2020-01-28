@@ -23,8 +23,20 @@ function cardClickHandler() {
     secondCard = this;
 
     //do cards match?
-    console.log(firstCard.dataset.name);
-    console.log(secondCard.dataset.name);
+
+    if (firstCard.dataset.name === secondCard.dataset.name) {
+      //It's a match!
+      firstCard.removeEventListener;
+      "click", cardClickHandler;
+      secondCard.removeEventListener;
+      "click", cardClickHandler;
+    } else {
+      //not a match
+      setTimeout(() => {
+        firstCard.classList.remove("flip");
+        secondCard.classList.remove("flip");
+      }, 1500);
+    }
   }
 }
 

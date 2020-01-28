@@ -18,8 +18,9 @@ Repasar conceptos básicos pero imprescindibles como:
 - Rutas relativas vs. rutas absolutas
 - Selectores CSS.
 - Transiciones.
-- Atributos data-\*
+- Atributos [data-\*](https://developer.mozilla.org/es/docs/Web/API/HTMLElement/dataset)
 - La [sintáxis Markdown](https://markdown.es/sintaxis-markdown/) para redactar este Readme.
+- El método [setTimeout](https://www.w3schools.com/jsref/met_win_settimeout.asp) de JavaScript.
 
 Usar nuevas herramientas como:
 
@@ -27,3 +28,4 @@ Usar nuevas herramientas como:
 - [La pseudo-clase :active de CSS](https://developer.mozilla.org/es/docs/Web/CSS/:active) , usada para acentuar el efecto de click sobre las tarjetas.
 - Las propiedades de CSS [perspective](https://www.w3schools.com/cssref/css3_pr_perspective.asp) y [transform-style](https://www.w3schools.com/cssref/css3_pr_transform-style.asp): preserve-3d para dar la vuelta a las cartas con sensación de profundidad.
 - La propiedad [backface-visibility](https://www.w3schools.com/cssref/css3_pr_backface-visibility.asp) que define si la cara posterior de un elemento debe ser visible o no.
+- removeEventListener(hasta ahora había sido siempre addEventListeners)
