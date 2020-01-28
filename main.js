@@ -48,13 +48,20 @@ function unflipCards() {
   }, 1500);
 }
 
-cards.forEach(card => {
-  card.addEventListener("click", cardClickHandler);
-});
-
 function resetBoard() {
   hasFlippedCard = false;
   lockBoard = false;
   firstCard = null;
   secondCard = null;
 }
+
+(function randomShuffle() {
+  cards.forEach(card => {
+    let randomNumber = Math.floor(Math.random() * 12);
+    card.style.order = randomNumber;
+  });
+})();
+
+cards.forEach(card => {
+  card.addEventListener("click", cardClickHandler);
+});

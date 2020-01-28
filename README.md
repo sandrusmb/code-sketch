@@ -22,6 +22,7 @@ Repasar conceptos básicos pero imprescindibles como:
 - La [sintáxis Markdown](https://markdown.es/sintaxis-markdown/) para redactar este Readme.
 - El método [setTimeout](https://www.w3schools.com/jsref/met_win_settimeout.asp) de JavaScript.
 - El operador condicional [ternario](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Conditional_Operator).
+- La función [Math.random](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math/random) para repartir las cartas en posiciones aleatorias.
 
 Usar nuevas herramientas como:
 
@@ -36,3 +37,11 @@ Usar nuevas herramientas como:
 - Comprobar si las cartas coinciden o no (función checkIfCardsMatched).
 - Conseguir que las cartas cuando no coinciden, se den la vuelta automáticamente y cuando coinciden, que se queden boca arriba y no se puedan volver a clickar (añadiendo y quitando eventListeners y clases).
 - Evitar poder dar la vuelta a más cartas mientras que está realizando una comprobación (función lockBoard).
+
+## Mejoras futuras
+
+- Contador de movimientos.
+- Temporizador.
+- Mensaje cuando has ganado.
+- Niveles de dificultad (con menos tiempo para jugar y que las cartas se den la vuelta más deprisa, por ejemplo).
+- Mensaje cuando pierdes.
