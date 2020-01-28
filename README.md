@@ -30,3 +30,9 @@ Usar nuevas herramientas como:
 - Las propiedades de CSS [perspective](https://www.w3schools.com/cssref/css3_pr_perspective.asp) y [transform-style](https://www.w3schools.com/cssref/css3_pr_transform-style.asp): preserve-3d para dar la vuelta a las cartas con sensación de profundidad.
 - La propiedad [backface-visibility](https://www.w3schools.com/cssref/css3_pr_backface-visibility.asp) que define si la cara posterior de un elemento debe ser visible o no.
 - [removeEventListener](https://www.w3schools.com/jsref/met_element_removeeventlistener.asp), hasta ahora había sido siempre addEventListeners.
+
+## Retos
+
+- Comprobar si las cartas coinciden o no (función checkIfCardsMatched).
+- Conseguir que las cartas cuando no coinciden, que se den la vuelta automáticamente y cuando coinciden, que se queden boca arriba y no se puedan volver a clickar (añadiendo y quitando eventListeners y clases).
+- Evitar poder dar la vuelta a más cartas mientras que está realizando una comprobación (función lockBoard).
